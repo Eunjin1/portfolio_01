@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>어랏커피 리뉴얼</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+<body>
+
+    <div class="wrap">
+        
+        <header>
+            <div class="logo"><a href="index.html"><img src="img/logo_a.png" alt="어랏커피로고"></a></div>
+            <nav class="only_pc">
+                <ul>
+                    <li class="top_nav">
+                        A LOT COFFEE
+                        <ul class="sub_nav">
+                            <li><a href="sub_page/sub_1/about.html">A LOT COFFEE 소개</a></li>
+                            <li><a href="sub_page/sub_2/map.html">오시는 길</a></li>
+                            <li><a href="sub_page/sub_3/store.html">매장안내</a></li>
+                        </ul>
+                    </li>
+                    <li class="top_nav">
+                        MENU
+                        <ul class="sub_nav">
+                            <li><a href="sub_page/sub_4/menu.html">SIGNATURE</a></li>
+                            <li><a href="sub_page/sub_4/menu.html">COFFEE</a></li>
+                            <li><a href="sub_page/sub_4/menu.html">NON COFFEE</a></li>
+                            <li><a href="sub_page/sub_4/menu.html">TEA</a></li>
+                            <li><a href="sub_page/sub_4/menu.html">ICE BLENDED</a></li>
+                            <li><a href="sub_page/sub_4/menu.html">ADE & JUICE</a></li>
+                        </ul>
+                    </li>
+                    <li class="top_nav">
+                        FRANCHISE
+                        <ul class="sub_nav">
+                            <li><a href="sub_page/sub_5/procedure.html">창업 절차</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header_icon only_mo"><img src="img/menu_icon.png" alt="모바일메뉴아이콘"></div>
+        </header>
+        <div class="menu_mo">
+            <div><img src="img/x_icon.png" alt="close"></div>
+            <ul>
+                <li class="top_nav_mo">
+                    <p>A LOT COFFEE</p>
+                    <ul class="sub_nav_mo">
+                        <li><a href="sub_page/sub_1/about.html">A LOT COFFEE 소개</a></li>
+                        <li><a href="sub_page/sub_2/map.html">오시는 길</a></li>
+                        <li><a href="sub_page/sub_3/store.html">매장안내</a></li>
+                    </ul>
+                </li>
+                <li class="top_nav_mo">
+                    <p>MENU</p>
+                    <ul class="sub_nav_mo">
+                        <li><a href="sub_page/sub_4/menu.html">SIGNATURE</a></li>
+                        <li><a href="sub_page/sub_4/menu.html">COFFEE</a></li>
+                        <li><a href="sub_page/sub_4/menu.html">NON COFFEE</a></li>
+                        <li><a href="sub_page/sub_4/menu.html">TEA</a></li>
+                        <li><a href="sub_page/sub_4/menu.html">ICE BLENDED</a></li>
+                        <li><a href="sub_page/sub_4/menu.html">ADE & JUICE</a></li>
+                    </ul>
+                </li>
+                <li class="top_nav_mo">
+                    <p>FRANCHISE</p>
+                    <ul class="sub_nav_mo">
+                        <li><a href="sub_page/sub_5/procedure.html">창업 절차</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- //header -->
+        
+        <section class="banner">
+            <div class="banner_slide">
+                <ul class="slide">
+                    <li><img src="img/banner_1.png" alt="banner"></li>
+                    <li><img src="img/banner_2.png" alt="banner"></li>
+                    <li><img src="img/banner_3.png" alt="banner"></li>
+                </ul>
+            </div>
+        </section>
+        <!-- //banner -->
+
+        <div class="btn">
+            <ul>
+                <li><a href="#">TOP</a></li>
+                <li><a href="#">창업<br/>상담</a></li>
+                <li>1833<br/>-<br/>5590</li>
+            </ul>
+        </div>
+        <!-- //btn -->
+
+        <section class="section_1">
+            <div class="in_section">
+                <div class="contetns_1">
+                    <div class="title">MENU</div>
+                    <div class="btn_box">
+                        <ul class="btn_wrap">
+                            <li id="signature" class="btn_1 on">SIGNATURE</li>
+                            <li class="btn_1">COFFEE</li>
+                            <li class="btn_1">NON COFFEE</li>
+                        </ul>
+                        <ul class="btn_wrap">
+                            <li id="tea" class="btn_1">TEA</li>
+                            <li class="btn_1">ICE BLENDED</li>
+                            <li class="btn_1">ADE & JUICE</li>
+                        </ul>
+                    </div>
+
+                    <div class="item_wrap">
+                        <div class="item_box">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/signature_1.png" alt="signature">
+                                            <h3>바닐라라떼</h3>
+                                            <p>바닐라빈을 직접 끓여 만든 풍미가진한 바닐라빈 라떼</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/signature_2.png" alt="signature">
+                                            <h3>어랏 그레이</h3>
+                                            <p>진한 카페라떼 위에 흑임자크림이 올라간 흑임자크림라떼</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/signature_3.png" alt="signature">
+                                            <h3>어랏 블랙</h3>
+                                            <p>진한 콜드브루와 부드러운 크림으로 조합한 아인슈페너</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/signature_4.png" alt="signature">
+                                            <h3>어랏 화이트</h3>
+                                            <p>에스프레소와 부드러운 크림으로 조합한 아인슈페너</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/signature_5.png" alt="signature">
+                                            <h3>어랏 모카</h3>
+                                            <p>에스프레소와 진한 초코소스 파우더와 수제크림의 조화</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/signature_6.png" alt="signature">
+                                            <h3>어랏 그린</h3>
+                                            <p>진한 말차라떼 위에 에스프레소와 크림이 올라간 말차크림라떼</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/coffee_1.png" alt="coffee">
+                                            <h3>아메리카노</h3>
+                                            <p>어랏의 시그니쳐 원두가 들어가는 고소하고 묵직한 아메리카노</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/coffee_2.png" alt="coffee">
+                                            <h3>카페라떼</h3>
+                                            <p>묵직한 에스프레소와 부드러운 우유가 어우러진 고소한 카페라떼</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/coffee_3.png" alt="coffee">
+                                            <h3>헤이즐넛라떼</h3>
+                                            <p>헤이즐넛의 너트한 플레이버가 커피에 녹아 든 라떼</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/coffee_4.png" alt="coffee">
+                                            <h3>돌체라떼</h3>
+                                            <p>연유의 부드럽고 달콤함이 추가된 라떼</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/coffee_5.png" alt="coffee">
+                                            <h3>초코모카라떼</h3>
+                                            <p>진한 초코와 진한 커피가 시너지를 보이는 라떼</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/coffee_6.png" alt="coffee">
+                                            <h3>카라멜마끼아또</h3>
+                                            <p>카라멜의 독특한 향미가 잘 베어든 카라멜 마끼아또</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/coffee_7.png" alt="coffee">
+                                            <h3>콜드브루</h3>
+                                            <p>어랏만의 커피가 천천히 녹아들어 진한 풍미를 느낄 수 있는 메뉴</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/coffee_8.png" alt="coffee">
+                                            <h3>콜드브루라떼</h3>
+                                            <p>진한 콜드브루에 고소하고 부드러운 우유가 함께 해 풍미가 깊은 메뉴</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/coffee_9.png" alt="coffee">
+                                            <h3>콜드브루 돌체라떼</h3>
+                                            <p>콜드브루에 연유와 우유를 섞어 또 다른 맛의 즐거움을 주는 메뉴</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/noncoffee_1.png" alt="noncoffee">
+                                            <h3>초코라떼</h3>
+                                            <p>카카오의 진한 풍미와 달콤한 초콜렛이 녹아든 라떼</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/noncoffee_2.png" alt="noncoffee">
+                                            <h3>녹차라떼</h3>
+                                            <p>녹차의 진한 풍미와 단 맛을 가미해 즐길 수 있는 라떼</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/noncoffee_3.png" alt="noncoffee">
+                                            <h3>홍차라떼</h3>
+                                            <p>홍차의 향과 맛을 살려 우유에 녹아낸 라떼</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/noncoffee_4.png" alt="noncoffee">
+                                            <h3>흑임자라떼</h3>
+                                            <p>흑임자의 고소하고 건강함을 담아낸 라떼</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/noncoffee_5.png" alt="noncoffee">
+                                            <h3>쑥라떼</h3>
+                                            <p>쑥의 향과 그 질감을 잘 표현해낸 라떼</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/noncoffee_6.png" alt="noncoffee">
+                                            <h3>생강라떼</h3>
+                                            <p>생강청을 스팀 우유와 믹싱해 맛을 살려낸 생강라떼</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/noncoffee_7.png" alt="noncoffee">
+                                            <h3>딸기라떼</h3>
+                                            <p>딸기청과 우유의 조화가 잘 어우러진 라떼</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/tea_1.png" alt="tea">
+                                            <h3>유자차</h3>
+                                            <p>유자청이 들어가 향이 좋은 티 음료</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/tea_2.png" alt="tea">
+                                            <h3>페퍼민트</h3>
+                                            <p>건강에 좋은 티 음료</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/tea_3.png" alt="tea">
+                                            <h3>레몬차</h3>
+                                            <p>레몬청으로 제조해 상큼함을 강조한 티 음료</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/tea_4.png" alt="tea">
+                                            <h3>자몽차</h3>
+                                            <p>자몽청으로 제조해 쌉싸름한 맛을 강조한 티 음료</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/tea_5.png" alt="tea">
+                                            <h3>생강차</h3>
+                                            <p>생강청으로 제조해 입을 개운하게 만들어주는 티 음료</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/tea_6.png" alt="tea">
+                                            <h3>카모마일</h3>
+                                            <p>건강에 좋은 티 음료</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/tea_7.png" alt="tea">
+                                            <h3>히비스커스</h3>
+                                            <p>건강에 좋은 티 음료</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/iceblended_1.png" alt="ice blended">
+                                            <h3>플레인요거트</h3>
+                                            <p>가장 기본적이고 우유에 상큼함이 가미된 요거트 블렌드 메뉴</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/iceblended_2.png" alt="ice blended">
+                                            <h3>딸기요거트</h3>
+                                            <p>플레인요거트에 딸기를 같이 믹싱해 맛을 조합시킨 블렌드 메뉴</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/iceblended_3.png" alt="ice blended">
+                                            <h3>자바칩</h3>
+                                            <p>초코와 초코칩이 함께 믹싱되어 맛과 식감을 살린 블렌드 메뉴</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/iceblended_4.png" alt="ice blended">
+                                            <h3>말차</h3>
+                                            <p>말차의 쌉싸름한 질감과 맛을 강조한 블렌드 메뉴</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/iceblended_5.png" alt="ice blended">
+                                            <h3>유자스무디</h3>
+                                            <p>유자의 독특한 향을 시원하게 즐길 수 있는 블렌드 메뉴</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/ade_1.png" alt="ade">
+                                            <h3>자두얼그레이에이드</h3>
+                                            <p>자두의 플레이버와 얼그레이의 독특한 향이 잘 믹싱된 음료</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/ade_2.png" alt="ade">
+                                        <h3>페퍼민트라임에이드</h3>
+                                        <p>플페퍼민트의 상쾌함과 라임의 상큼함이 어우러진 음료</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/ade_3.png" alt="ade">
+                                            <h3>자몽에이드</h3>
+                                            <p>자몽의 쌉쌀함과 탄산의 조합으로 상큼함을 강조한 음료</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/ade_4.png" alt="ade">
+                                            <h3>레몬에이드</h3>
+                                            <p>레몬의 상큼함과 탄산의 조합으로 새콤달콤함을 강조한 음료</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/ade_5.png" alt="ade">
+                                            <h3>유자에이드</h3>
+                                            <p>유자의 독특한 향과 탄산의 조화를 이끌어낸 에이드</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/ade_6.png" alt="ade">
+                                            <h3>아이스티</h3>
+                                            <p>복숭아 홍차의 맛을 가진 아이스티</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/juice_1.png" alt="juice">
+                                            <h3>바나나</h3>
+                                            <p>바나나를 갈아 넣어 식사 대용으로 좋은 주스</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/juice_2.png" alt="juice">
+                                            <h3>딸기바나나</h3>
+                                            <p>딸기와 바나나를 믹싱해 맛을 낸 주스</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/juice_3.png" alt="juice">
+                                            <h3>초코바나나</h3>
+                                            <p>초코의 달콤함을 바나나에 더해 맛을 낸 주스</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="menu">
+                                            <img src="img/juice_4.png" alt="juice">
+                                            <h3>딸기</h3>
+                                            <p>딸기의 플레이버와 달콤함을 강조한 주스</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //section_1 -->
+
+        <section class="section_2">
+            <div class="in_section">
+                <div class="contents_2">
+                    <div class="contents_2_text">
+                        <p>점주님의 성공을 함께합니다</p>
+                        <h1>Franchising<br/>
+                            Business</h1>
+                        <h3>농장 및 지역을 확실히 알 수 있는 품질 보증된 스페셜티의 풀시티 배전도로<br/>
+                            대중들이 선호하는 고소함 과 단맛을 커피에 담았습니다.</h3>
+                        <button class="btn_2"><a href="#">창업상담</a></button>
+                </div>
+                <img src="img/section_2.png" alt="alotcoffee">
+            </div>
+        </section>
+        <!-- //section_2 -->
+
+        <section class="section_3">
+            <div class="in_section">
+                <div class="contents_3">
+                    <div class="contents_3_text">
+                        <p>A ROT COFFEE를 소개합니다</p>
+                        <h1>15 years of<br/>
+                            know-how</h1>
+                        <h3>어랏 커피는 15년 넘는 노하우를 가진 전문 업체입니다.</h3>
+                        <span>타사와 달리 오랜기간 고객들과 도매를 통해 검증 받은 커피맛을 가지고 있습니다.<br/>
+                           값싼원두로 이익을 추구하지 않습니다.</span>
+                        <button class="btn_2"><a href="sub_page/sub_1/about.html">브랜드 소개</a></button>
+                    </div>
+                    <img src="img/section_3.png" alt="alotcoffee">
+                </div>
+            </div>
+        </section>
+        <!-- //section_3 -->
+
+        <footer>
+            <div class="footer_1"></div>
+            <div class="footer_2">
+                <h1>어랏커피</h1>
+                <div class="footer_2_text">
+                    <ul>
+                        <li>대표자 : 차성민</li>
+                        <li>사업자등록번호 : 356 - 02 - 02434</li>
+                    </ul>
+                    <p>부산광역시 동래구 연안로 59번길 105</p>
+                </div>
+                <h3>Copyright(c) A LOT Coffee Roasters. All Rights Reserved.</h3>
+            </div>
+        </footer>
+        <!-- //footer -->
+
+    </div>
+    
+</body>
+</html>
